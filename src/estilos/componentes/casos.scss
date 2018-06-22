@@ -1,6 +1,14 @@
-.col-8 {background-color: lightgray;
+.col-7 {background-color: lightgray;
         font-family: $anton; }
-.col-4 {background-color: #ecf0f1; }
+.col-4 {background-color: #ecf0f1;
+        p {font-family: $yanone; 
+            font-size: 2rem;
+             }
+        li {display: inline-block;
+            margin-left: 5rem;
+            font-family: $anton;
+            font-size: 5rem;}
+}
 
 .alert-primary {width: 41rem;}
 .alert-success {width: 35rem;}
@@ -8,3 +16,8 @@
 .alert-warning {width: 23rem;}
 .alert-info {width: 17rem;}
 .alert-light {width: 11rem;}
+
+.fa-audible {color: lightsalmon;
+            font-size: 18rem;}
+
+          

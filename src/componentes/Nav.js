@@ -5,16 +5,16 @@ const Nav = () => {
         <center>
           <Link 
           className='link'
-          to="/item1"><p>Item 1</p></Link>
+          to="/"><p>ITEM 1</p></Link>
           <Link 
           className='link'
-          to="/item2"><p>Item 2</p></Link>
+          to="/"><p>ITEM 2</p></Link>
           <Link 
           className='link'
-          to="/item2"><p>Item 3</p></Link>
+          to="/"><p>ITEM 3</p></Link>
           <Link 
           className='link'
-          to="/item2"><p>Item 4</p></Link>
+          to="/"><p>ITEM 4</p></Link>
         </center>
         </nav>)
 }

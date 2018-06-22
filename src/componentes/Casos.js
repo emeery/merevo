@@ -2,7 +2,7 @@ import React from 'react';
 const Casos = () => {
     return(
         <div className="row">
-            <div className="col-8">
+            <div className="col-7">
             <li>
             África Subsahariana 
             <div className="alert alert-primary" role="alert">
@@ -41,7 +41,17 @@ const Casos = () => {
             </li>
             </div>
             
-            <div className="col-4">col-4</div>
+            <div className="col-4">
+            
+            <p>Avg Basket</p>
+           <li>16,610</li>
+           <p>Avg Basket</p>
+           <li>16,610</li>
+
+            <center>
+           <i className="fab fa-audible fa-5x"></i>
+           </center>
+            </div>
         </div>
     )
 }

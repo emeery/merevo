@@ -8,7 +8,7 @@ const AppRouter = () => (
     <BrowserRouter>
     <div>
             <Cabecera
-            titulo='Viajes'/>
+            titulo='Merevo'/>
         <Switch>
             <Route path="/" component={AppMerevo} exact={true} />
             
