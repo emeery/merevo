@@ -2,15 +2,15 @@ import React from 'react';
 import {
 BrowserRouter, Switch, Route, Link, NavLink} from 'react-router-dom';
 import Cabecera from '../componentes/Cabecera';
-import AppMerevo from '../componentes/AppMerevo';
+import AppDerevo from '../componentes/AppDerevo';
 
 const AppRouter = () => (
     <BrowserRouter>
     <div>
             <Cabecera
-            titulo='Merevo'/>
+            titulo='Derevo'/>
         <Switch>
-            <Route path="/" component={AppMerevo} exact={true} />
+            <Route path="/" component={AppDerevo} exact={true} />
             
         </Switch>
     </div>
